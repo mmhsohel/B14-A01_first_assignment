@@ -461,3 +461,203 @@ body {
 }
 
 
+/* ==========================================
+   RESPONSIVE DESIGN
+========================================== */
+
+/* ---------- Tablet ---------- */
+@media (max-width: 992px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    .overlay h1 {
+        font-size: 50px;
+    }
+
+    .overlay p {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    .speaker-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .challenge-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .pricing-cards {
+        justify-content: center;
+    }
+
+    .featured {
+        transform: none;
+    }
+
+    .featured:hover {
+        transform: translateY(-8px);
+    }
+
+}
+
+
+/* ---------- Mobile ---------- */
+@media (max-width: 768px) {
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .banner {
+        min-height: 100vh;
+        height: auto;
+        padding: 80px 20px;
+    }
+
+    .overlay {
+        padding: 10px;
+    }
+
+    .overlay h1 {
+        font-size: 38px;
+    }
+
+    .overlay p {
+        font-size: 16px;
+        margin-bottom: 40px;
+    }
+
+    .speakers,
+    .pricing,
+    .coding-challenge {
+        padding: 60px 20px;
+    }
+
+    .speakers h2,
+    .pricing h2,
+    .coding-challenge h2 {
+        font-size: 32px;
+    }
+
+    .speaker-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .speaker-card img {
+        height: 220px;
+    }
+
+    .pricing-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .featured {
+        transform: none;
+    }
+
+    .featured:hover {
+        transform: translateY(-8px);
+    }
+
+    .challenge-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .challenge-info {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .info-box {
+        width: 45%;
+    }
+
+    .footer {
+        padding: 30px 20px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+}
+
+
+/* ---------- Small Mobile ---------- */
+@media (max-width: 480px) {
+
+    .container {
+        padding: 15px;
+    }
+
+    .icon {
+        width: 80px;
+        height: auto;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .register-button,
+    .challenge-btn {
+        width: 100%;
+    }
+
+    .overlay h1 {
+        font-size: 28px;
+    }
+
+    .overlay p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+
+    .speakers h2,
+    .pricing h2,
+    .coding-challenge h2 {
+        font-size: 28px;
+    }
+
+    .speaker-card img {
+        height: 180px;
+    }
+
+    .pricing-card {
+        min-width: 100%;
+    }
+
+    .info-box {
+        width: 100%;
+    }
+
+    .footer-logo h2 {
+        font-size: 22px;
+    }
+
+    .social-links {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
