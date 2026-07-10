@@ -206,10 +206,7 @@ body {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.pricing-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-}
+
 
 
 
@@ -219,9 +216,6 @@ body {
     transform: scale(1.05);
 }
 
-.featured:hover {
-    transform: scale(1.05) translateY(-8px);
-}
 
 .featured ul li,
 .featured .subtitle {
